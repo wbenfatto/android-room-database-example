@@ -7,14 +7,16 @@
     tools:context=".fragments.add.AddFragment">
 
     <EditText
-        android:id="@+id/textView3"
+        android:id="@+id/textView"
         android:layout_width="300dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="212dp"
-        android:text="Age"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
+        android:layout_height="0dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="144dp"
+        android:text="First Name"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -29,17 +31,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/textView3"
         android:layout_width="300dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginBottom="144dp"
-        android:text="First Name"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="212dp"
+        android:text="Age"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button"
